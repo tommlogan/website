@@ -11819,6 +11819,24 @@ The results are reported in seconds. The time is measured using R's tictoc funct
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>Shared memory: 2,3,7<br>
+Distributed memory: 1,4,5,6<br>
+Progress bars: 1,2,3,5<br>
+Splitting data frame: 3,4,5,6</p>
+<ul>
+<li>This indicates that while shared memory is superior for data frames about 100,000 rows or less, the distributed memory options come into strength after that.</li>
+<li>The progress bars have very little, if any, impact on the computational time (thank goodness, cause they are the best thing since sliced bread).</li>
+<li>Splitting the data frame is key for these large data sets. This is even before we consider memory issues from pushing a 5Gb + data frame to all of the cores.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Functions">Functions<a class="anchor-link" href="#Functions">&#182;</a></h2>
 </div>
 </div>
