@@ -150,6 +150,13 @@ height: 20px;
 	-webkit-filter: invert(100%) !important;
 }
 
+.image {
+	border: 0;
+	position: relative;
+	display: block;
+	margin: auto;
+}
+
 .image-replace {
 	display: block;
 	text-indent: -100em;
@@ -448,7 +455,10 @@ p {
 			padding-top: 0;
 }
 
-
+.cent {
+	text-align: center;
+	display: block
+	}
 
 .mendeley {
     position: relative;
