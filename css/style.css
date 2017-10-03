@@ -8,10 +8,19 @@
 
 img {
 	max-width: 100%;
-
-
 }
 
+.image {
+	border: 0;
+	position: relative;
+	display: block;
+	margin: auto;
+}
+
+.cent {
+    display: inline;
+    float: none;
+}
 
 #wrapper {
 	min-height:100%;
@@ -478,7 +487,7 @@ p {
 ------------------------------------------------------------ */
 
 .bigg-likes,.bigg-read-more {
-	
+
 	border: 1px solid #E2E2E2;
 background-color: white;
 color: #9F9F9F;
