@@ -18,12 +18,11 @@ title: Tom Logan's blog
 email: tomlogan@umich.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Tom Logan's research blog!
-baseurl: /blogs # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: http://tomlogan.co.nz # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: TomMLogan
 github_username:  tommlogan
 
 # Build settings
-source: /_jekyll
-destination: /blogs
-baseurl: /blogs
+# source: /_jekyll
+# destination: /blogs
