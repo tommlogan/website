@@ -1,2 +1,6 @@
 *.zip
 Skeleton-*
+_site
+.sass-cache
+.jekyll-metadata
+my_blog
