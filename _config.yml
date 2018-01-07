@@ -1,0 +1,3 @@
+source: /_jekyll
+destination: /blogs
+baseurl: /blogs
