@@ -4,10 +4,10 @@ title:  "Watercolor (aka Visually Weighted) regressions in Python"
 date:   2017-10-03 12:00:00 -0600
 categories: coding
 ---
-I first saw a watercolour regression in a paper by my colleague Andrea Staid on [wind prediction for wind energy]({{http://pierrepinson.com/docs/Staid2013_maxwind_revised.pdf}}).
+I first saw a watercolour regression in a paper by my colleague Andrea Staid on [wind prediction for wind energy](http://pierrepinson.com/docs/Staid2013_maxwind_revised.pdf).
 She had this neat figure here which shows a probabilistic prediction band:
 <img class ="image" src="/img/blog/staid.png"  width = "70%">
-I want something similar to this for a research project and came across the work of [Schönbrodt]({{http://www.nicebread.de/visually-weighted-watercolor-plots-new-variants-please-vote/}}) and [Hsiang]({{http://www.fight-entropy.com/2012/08/watercolor-regression.html}}).
+I want something similar to this for a research project and came across the work of [Schönbrodt](http://www.nicebread.de/visually-weighted-watercolor-plots-new-variants-please-vote/) and [Hsiang](http://www.fight-entropy.com/2012/08/watercolor-regression.html).
 <div class="cent">
   <img src = '/img/blog/schonbrodt.jpeg' width="40%">
   <img src = '/img/blog/schonbrodt_2.jpeg' width="40%">
@@ -16,7 +16,7 @@ Seriously, how cool is that.
 
 Basically, the figure on the left shows the scatter and the 1st, 2nd, and 3rd standard deviation away from the median. The figure on the right shows this with some smoothing.
 
-But! Their code is in R and Matlab respectively and I want it in Python. A quick Google didn't turn anything up (except this [Stack question]({{https://stackoverflow.com/questions/12465608/python-scatter-plot-with-median-and-ci}})).
+But! Their code is in R and Matlab respectively and I want it in Python. A quick Google didn't turn anything up (except this [Stack question](https://stackoverflow.com/questions/12465608/python-scatter-plot-with-median-and-ci)).
 
 I'm going to start off easy and not run any regression.
   I just want a line which goes through the median value and has bands at the 25th and 75th percentile, the 10th and 90th, and the 5th and 95th.
@@ -31,4 +31,4 @@ I'm going to start off easy and not run any regression.
 </div>
 <img class ="image" src="/img/blog\/fig3.png"  width = "70%">
 
-If this is of use to anyone, the code is on my [github]({{https://github.com/tommlogan/watercolor}}).
+If this is of use to anyone, the code is on my [github](https://github.com/tommlogan/watercolor).
