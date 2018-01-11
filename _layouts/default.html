@@ -3,7 +3,7 @@
 <html lang="en-us">
 
 <head>
-	<title>{{ page.title }}</title>
+	<title>{{ site.title }}</title>
 	<meta name="description" content="Tom is a Ph.D. student in industrial engineering at the University of Michigan. He applies statistical and operations research methods to questions of urban design.">
 	<meta name="keywords" content="sustainability, statistics, simulation, systems">
 	<meta name="author" content="Tom Logan">
@@ -11,7 +11,6 @@
 	<link rel="stylesheet" href="/css/skeleton.css">
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="icon" href="/img/favicon_kakapo.ico">
-
 </head>
 
 <body>
@@ -32,12 +31,19 @@
 				</div>
 
 				<div class="four columns social-menu mobile-hide">
-					<ul class="horizontal-list">
+					<ul class="icons horizontal-list">
+						<li><a href="https://twitter.com/{{ site.twitter_username }}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" class="icon fa-linkedin"><span class="label">Facebook</span></a></li>
+						<li><a href="https://scholar.google.co.nz/citations?hl=en&view_op=list_works&gmla=AJsN-F7ua45BO8i1DHccKCUj7VPZqMzoZxfTFasDQNl2_V7GtlfsDKuC70DN5-8fIn8VadBbpoEfmI9BTw5FwKbSHXWa_N0IKA&user=NqnK14EAAAAJ" class="icon fa-graduation-cap"><span class="label"> Google Scholar</span></a></li>
+						<li><a href="https://github.com/{{ site.github_username }}" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto:{{ site.email }}" class="icon fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<!-- <ul class="horizontal-list">
 						<li><a href="http://nz.linkedin.com/pub/tom-logan/5b/62a/4b2/" target="_blank" class="linkedin social-icon image-replace" title="LinkedIn">LinkedIn</a></li>
 						<li><a href="https://github.com/tommlogan" target="_blank" class="github social-icon image-replace" title="GitHub">GitHub</a></li>
 						<li><a href="https://scholar.google.co.nz/citations?hl=en&view_op=list_works&gmla=AJsN-F7ua45BO8i1DHccKCUj7VPZqMzoZxfTFasDQNl2_V7GtlfsDKuC70DN5-8fIn8VadBbpoEfmI9BTw5FwKbSHXWa_N0IKA&user=NqnK14EAAAAJ" target="_blank" class="gschol social-icon image-replace" title="Google Scholar">Google Scholar</a></li>
 						<li><a href="https://twitter.com/TomMLogan" target="_blank" class="twitter social-icon image-replace" title="Twitter">Twitter</a></li>
-					</ul>
+					</ul> -->
 
 				</div>
 			</div>
@@ -53,12 +59,12 @@
 
 		</div><!--end container-->
 
-		<div class="footer"><!-- footer -->
-			<div id="footer" class="mobile-hide"><a href="http://www.engin.umich.edu/ioe" target="_blank"><img class="display center mobile-hide" src="/img/U-M_2color-Horizontal.png" title="University of Michigan, Ann Arbor" width="375" height="40.5"></a></div>
+		<!-- <div class="footer"><!-- footer --> -->
+			<!-- <div id="footer" class="mobile-hide"><a href="http://www.engin.umich.edu/ioe" target="_blank"><img class="display center mobile-hide" src="/img/U-M_2color-Horizontal.png" title="University of Michigan, Ann Arbor" width="375" height="40.5"></a></div> -->
 
-			<div id="footer" class="mobile-show"><a href="http://www.engin.umich.edu/ioe" target="_blank"><img class="display center" src="/img/BlockM-rball.png" title="University of Michigan, Ann Arbor" width="67" height="45"></a></div>
+			<!-- <div id="footer" class="mobile-show"><a href="http://www.engin.umich.edu/ioe" target="_blank"><img class="display center" src="/img/BlockM-rball.png" title="University of Michigan, Ann Arbor" width="67" height="45"></a></div> -->
 
-		</div>
+		<!-- </div> -->
 
 	</div><!-- #wrapper -->
 	{% if jekyll.environment == 'production' %}

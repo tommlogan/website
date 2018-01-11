@@ -5,6 +5,9 @@
 
 
 */
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
+
 
 img {
 	max-width: 100%;
@@ -105,6 +108,11 @@ a:hover {
 	list-style-type: disc;
 }
 
+.blog-list li {
+	margin: 5px 0px 0px 40px;
+	list-style: none;
+}
+
 .nav-menu {
 	font-size: 14px;
 	font-weight: lighter;
@@ -137,6 +145,9 @@ a:hover {
 	margin: 0 2px 0 2px;
 	float: right;
 }
+
+
+
 
 .linkedin {
 	background-image: url('../img/ico-bigg-in2.png');
@@ -249,6 +260,92 @@ height: 20px;
 	padding-top: 5em;
 }
 
+/* Icon */
+ul.feature-icons {
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.feature-icons li {
+				text-decoration: none;
+				display: inline-block;
+				margin: 0 0 1.6875em 0;
+				padding: 0.35em 0 0 3.5em;
+				position: relative;
+				vertical-align: top;
+				width: 48%;
+			}
+
+				ul.feature-icons li:before {
+					-moz-osx-font-smoothing: grayscale;
+					-webkit-font-smoothing: antialiased;
+					font-family: FontAwesome;
+					font-style: normal;
+					font-weight: normal;
+					text-transform: none !important;
+				}
+
+				ul.feature-icons li:before {
+					background: #004080;
+					border-radius: 100%;
+					color: #ffffff;
+					display: block;
+					height: 2.5em;
+					left: 0;
+					line-height: 2.5em;
+					position: absolute;
+					text-align: center;
+					top: 0;
+					width: 2.5em;
+				}
+
+		ul.icons {
+			cursor: default;
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.icons li {
+				display: inline-block;
+				padding: 0 1em 0 0;
+			}
+
+				ul.icons li:last-child {
+					padding-right: 0 !important;
+				}
+
+				ul.icons li .icon:before {
+					font-size: 1.25em;
+				}
+		ul.icons a {
+			color: grey;
+		}
+		ul.icons a:hover {
+			color: #1EAEDB;
+		}
+
+.icon {
+	text-decoration: none;
+	border-bottom: none;
+	position: relative;
+}
+
+.icon:before {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none !important;
+}
+
+.icon > .label {
+	display: none;
+}
+
+
+
+
 /* Body
 ------------------------------------------------------------ */
 body {
@@ -258,6 +355,11 @@ body {
 }
 .first {
 	padding-top: 5em;
+}
+.interests {
+	padding-top: 2em;
+	background-color: #F2F2F2;
+	width: 100%
 }
 .image-swap-tsu {
 
@@ -405,6 +507,7 @@ body {
 
 /* Font
 ------------------------------------------------------------ */
+
 
 h1,
 h2,
