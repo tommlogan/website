@@ -3,7 +3,7 @@
 <html lang="en-us">
 
 <head>
-	<title>Tom Logan</title>
+	<title>{{ site.title }}</title>
 	<meta name="description" content="Tom is a Ph.D. student in industrial engineering at the University of Michigan. He applies statistical and operations research methods to questions of urban design.">
 	<meta name="keywords" content="sustainability, statistics, simulation, systems">
 	<meta name="author" content="Tom Logan">
@@ -32,11 +32,11 @@
 
 				<div class="four columns social-menu mobile-hide">
 					<ul class="icons horizontal-list">
-						<li><a href="https://twitter.com/TomMLogan" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://www.linkedin.com/in/tom-logan/5b/62a/4b2/" class="icon fa-linkedin"><span class="label">Facebook</span></a></li>
+						<li><a href="https://twitter.com/{{ site.twitter_username }}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" class="icon fa-linkedin"><span class="label">Facebook</span></a></li>
 						<li><a href="https://scholar.google.co.nz/citations?hl=en&view_op=list_works&gmla=AJsN-F7ua45BO8i1DHccKCUj7VPZqMzoZxfTFasDQNl2_V7GtlfsDKuC70DN5-8fIn8VadBbpoEfmI9BTw5FwKbSHXWa_N0IKA&user=NqnK14EAAAAJ" class="icon fa-graduation-cap"><span class="label"> Google Scholar</span></a></li>
-						<li><a href="https://github.com/tommlogan" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="mailto:tomlogan@umich.edu" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="https://github.com/{{ site.github_username }}" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto:{{ site.email }}" class="icon fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 					<!-- <ul class="horizontal-list">
 						<li><a href="http://nz.linkedin.com/pub/tom-logan/5b/62a/4b2/" target="_blank" class="linkedin social-icon image-replace" title="LinkedIn">LinkedIn</a></li>
@@ -52,43 +52,7 @@
 
 
 
-			<div class="container">
-
-	<!-- #### Sidebar ###### -->
-<div class="two columns first mobile-hide">
-  <img class ="research-thumbnail" src="/img/tomlogan.jpg" title="Tom Logan" width="140" height=100%>
-  <p> Tom Logan <br>
-    <a href="mailto:tomlogan@umich.edu" target="_top">Email</a>
-  </p>
-  <img class ="research-thumbnail" src="/img/twilliams.jpg" title="Tim Williams" width="140" height=100%>
-  <p> Tim Williams <br>
-    <a href="http://timwilliams.kiwi" target="_top">Website</a>
-  </p>
-</div>
-<!-- #### Hello #### -->
-<div class="ten columns first">
-
-
-
-  <!-- Current Projects -------------------------->
-  <h2>Green space access</h2>
-  <!-- Current Projects -------------------------->
-<section class="row row-bottom">
-	<p>The following is a map of the USA cities and the areas we are defining as urban green space.</p>
-	<iframe src="/img/US_cities_green_space.html", width = 100%, height= "500"> </iframe>
-</section>
-<!-- end Current Projects -------------------------->
-
-  <!-- end Current Projects -------------------------->
-
-</div>
-
-
-
-
-
-</div><!--end container-->
-
+			{{ content }}
 
 
 
@@ -102,7 +66,9 @@
 		<!-- </div> -->
 
 	</div><!-- #wrapper -->
-	
+	{% if jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
 </body>
 
 
