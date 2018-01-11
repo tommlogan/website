@@ -1,8 +1,10 @@
 ---
-layout: sidebar_left
+layout: post
+sidebar: default
 title:  "Watercolor (aka Visually Weighted) regressions in Python"
 date:   2017-10-03 12:00:00 -0600
 categories: coding
+comments: true
 ---
 I first saw a watercolour regression in a paper by my colleague Andrea Staid on [wind prediction for wind energy](http://pierrepinson.com/docs/Staid2013_maxwind_revised.pdf).
 She had this neat figure here which shows a probabilistic prediction band:

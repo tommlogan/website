@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<!-- #### Sidebar ###### -->
+  {% include sidebar/sidebar_{{ page.sidebar }}.html %}
+<!-- #### Hello #### -->
+<div class="ten columns first">
+
+
+
+  <!-- Current Projects -------------------------->
+	<h2>{{ page.title }}</h2>
+  <p>
+    <i class="fa fa-calendar"></i> {{ page.date | date: "%d %B %Y" }}{% if page.categories %} on <i class="fa fa-tags"></i> {{ page.categories | array_to_sentence_string }}{% endif %}
+  </p>
+
+  {{ content }}
+  <!-- end Current Projects -------------------------->
+  {% include disqus.html %}
+
+  {% if page.previous.url or page.next.url %}
+      <hr />
+      <div class="row">
+        <article class="six columns">
+          {% if page.previous.url %}
+          <p>Previous</p>
+  				<h3><a href="{{ page.previous.url }}">{{page.previous.title}}</a></h3>
+          {% endif %}
+  			</article>
+  			<article class="six columns">
+          {% if page.next.url %}
+          <p>Next</p>
+  				<h3><a href="{{ page.next.url }}">{{page.next.title}}</a></h3>
+
+          {% endif %}
+  			</article>
+      </div>
+      {% endif %}
+</div>

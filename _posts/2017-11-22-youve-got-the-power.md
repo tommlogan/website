@@ -1,8 +1,10 @@
 ---
-layout: sidebar_left
+layout: post
+sidebar: default
 title:  "You've got the power - published in Nature"
 date:   2017-11-22 12:00:00 -0600
 categories: comment
+comments: true
 ---
 
 [Link to *Nature* **Career column**](https://www.nature.com/articles/d41586-017-07261-1)
