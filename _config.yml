@@ -27,3 +27,5 @@ linkedin_username: tom-logan-4b262a5b/
 # Build settings
 # source: /_jekyll
 # destination: /blogs
+markdown: kramdown
+highlighter: rouge
