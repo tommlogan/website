@@ -22,7 +22,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: http://tomlogan.co.nz # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: TomMLogan
 github_username:  tommlogan
-linkedin_username: tom-logan/5b/62a/4b2/
+linkedin_username: tom-logan-4b262a5b/
 
 # Build settings
 # source: /_jekyll
