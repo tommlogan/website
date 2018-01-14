@@ -31,6 +31,6 @@ I'm going to start off easy and not run any regression.
   <img src = '/img/blog/fig1.png' width="30%">
   <img src = '/img/blog/fig2.png' width="30%">
 </div>
-<img class ="image" src="/img/blog\/fig3.png"  width = "70%">
+<img class ="image" src="/img/blog/fig3.png"  width = "70%">
 
 If this is of use to anyone, the code is on my [github](https://github.com/tommlogan/watercolor).
