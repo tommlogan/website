@@ -1,7 +1,7 @@
 ---
 layout: post
 sidebar: timtom
-title:  "How Tim and I document our literature reviews"
+title:  "Documenting literature reviews"
 categories: coding
 comments: false
 ---
