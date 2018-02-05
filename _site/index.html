@@ -7,12 +7,18 @@
 	<meta name="description" content="Tom is a Ph.D. student in industrial engineering at the University of Michigan. He applies statistical and operations research methods to questions of urban design.">
 	<meta name="keywords" content="sustainability, statistics, simulation, systems">
 	<meta name="author" content="Tom Logan">
-	<link rel="stylesheet" href="/css/normalize.css">
-	<link rel="stylesheet" href="/css/skeleton.css">
-	<link rel="stylesheet" href="/css/style.css">
-	<link rel="stylesheet" href="/css/syntax.css">
+
+	<!-- Local js -->
+	<script src="/assets/js/strava.js"></script>
+
+	<!-- Style sheets -->
+	<link rel="stylesheet" href="/assets/css/normalize.css">
+	<link rel="stylesheet" href="/assets/css/skeleton.css">
+	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="stylesheet" href="/assets/css/syntax.css">
+	<link rel="stylesheet" href="/assets/css/syntax.css">
 	<link rel="alternate" type="application/rss+xml" title="Tom Logan's RSS" href="/feed.xml">
-	<link rel="icon" href="/img/favicon_kakapo.ico">
+	<link rel="icon" href="/assets/img/favicon_kakapo.ico">
 </head>
 
 <body>
@@ -21,13 +27,13 @@
 		<!-- #### Header ###### ------------------------>
 		<div class=" header">
 			<div class="site-header">
-				<div class="two columns header-logo"><img src="/img/kakapo_60.png" title="The New Zealand Kakapo" width="50" height="53"></div>
+				<div class="two columns header-logo"><img src="/assets/img/kakapo_60.png" title="The New Zealand Kakapo" width="50" height="53"></div>
 				<div class="six columns nav-menu">
 					<ul class="horizontal-list">
-						<li ><a href="/index.html"> Main </li>
-						<li ><a href="/cv.html">CV</a></li>
-						<li ><a href="/projects.html">Projects</a></li>
-						<li ><a href="/blog.html">Blogs</a></li>
+						<li ><a href="/index"> Main </li>
+						<li ><a href="/cv">CV</a></li>
+						<li ><a href="/projects">Projects</a></li>
+						<li ><a href="http://reckoningrisk.com" target="_blank">Blog</a></li>
 						<!-- <li><a href="http://ioe-guikema.engin.umich.edu/index.html" target="_blank">Guikema&nbsp;Research</a></li> -->
 					</ul>
 				</div>
@@ -35,11 +41,11 @@
 				<div class="four columns social-menu mobile-hide">
 					<ul class="icons horizontal-list">
 						<li><a href="https://twitter.com/TomMLogan" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://www.linkedin.com/in/" class="icon fa-linkedin"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.linkedin.com/in/tom-logan-4b262a5b/" class="icon fa-linkedin"><span class="label">Facebook</span></a></li>
 						<li><a href="https://scholar.google.co.nz/citations?hl=en&user=NqnK14EAAAAJ" class="icon fa-graduation-cap"><span class="label"> Google Scholar</span></a></li>
 						<li><a href="https://github.com/tommlogan" class="icon fa-github"><span class="label">Github</span></a></li>
 						<li><a href="mailto:tomlogan@umich.edu" class="icon fa-envelope"><span class="label">Email</span></a></li>
-						<li><a href="/feed.xml" class="icon fa-rss"><span class="label">Feed</span></a></li>
+						<li><a href="http://reckoningrisk.com/feed.xml" class="icon fa-rss"><span class="label">Feed</span></a></li>
 					</ul>
 					<!-- <ul class="horizontal-list">
 						<li><a href="http://nz.linkedin.com/pub/tom-logan/5b/62a/4b2/" target="_blank" class="linkedin social-icon image-replace" title="LinkedIn">LinkedIn</a></li>
@@ -62,39 +68,10 @@
 
 			<!-- #### Research Interests #### -->
 			<section class="row research-bar">
-				<div class="two columns mobile-hide">
-					<div class="wrap1">
-						<!-- <img class ="research-thumbnail" src="img/noun_1020436_cc.png" title="Sustainability (created by BomSymbols, NounProject)" width="100" height="100"> -->
-						<!-- <p> Sustainability </p> -->
-					</div>
-				</div>
-				<div class="two columns mobile-hide">
-					<div class="wrap1">
-						<!-- <img class ="research-thumbnail" src="img/noun_1146959_cc.png" title="Statistics (created by Valeriy, NounProject)" width="100" height="100"> -->
-						<!-- <p> Statistics </p> -->
-					</div>
-				</div>
 				<div class="twelve columns ">
-					<img class ="research-thumbnail" src="img/tlogan_389x389.jpg" title="Tom Logan" width="150" height="150">
-				</div>
-				<div class="two columns mobile-hide">
-					<div class="wrap1">
-						<!-- <div class="research-thumbnail image-swap-sim" title="The game of life">
-							<img src="img/simulation.png" width="100" height="100" style="visibility: hidden;" /> -->
-							<!-- <img class ="research-thumbnail" src="img/noun_1119962_cc.png" title="Simulation (created by Gongora, NounProject)" width="100" height="100"> -->
-						<!-- </div> -->
-						<!-- <p> Simulation </p> -->
-					</div>
-				</div>
-				<div class="two columns mobile-hide">
-					<div class="wrap1">
-						<!-- <img class ="research-thumbnail" src="img/noun_1123135_cc.png" title="Urban systems (created by Brand Mania, NounProject)" width="100" height="100"> -->
-						<!-- <p> Systems </p> -->
-					</div>
+					<img class ="research-thumbnail" src="/assets/img/tlogan_389x389.jpg" title="Tom Logan" width="150" height="150">
 				</div>
 			</section>
-
-
 
 			</div>
 </div>
@@ -105,8 +82,13 @@
 				<h3 class='cent'>
 					Applying mathematical modeling to understand the risks and uncertainties facing our cities
 					<br>
-					see <a class="green" href="http://adaptingcities.org">adaptingcities.org</a> for more information
+					Check out my blog <a class="green" href="http://reckoningrisk.com">ReckoningRisk.com</a>
 				</h3>
+				<!-- <div class="col-xs-6 col-sm-3" style="text-align: center">
+				        <i class="icon fa-compass"><span class="label">Run</span></i><br />
+				        <a href = > Week:  miles  <br />
+				        YTD:  miles</a>
+				      </div> -->
 			</section>
 			<!-- ### other projects -->
 			<h2>Selected Projects</h2>
@@ -114,7 +96,7 @@
 				<!-- project -->
 				<div class="four columns post wrap">
 					<div class="wrap1">
-							<img class="post-thumbnail" src="img/tsu.jpg" title="Coastal city" />
+							<img class="post-thumbnail" src="/assets/img/tsu.jpg" title="Coastal city" />
 					</div>
 					<div class="wrap2">
 						<h4 class="post-title">Evaluating adaptative measures</h4>
@@ -127,20 +109,20 @@
 				<!-- project -->
 				<div class="four columns post wrap">
 					<div class="wrap1">
-						<img class="post-thumbnail" src="img/access.jpeg" title="City Access">
+						<img class="post-thumbnail" src="/assets/img/access.jpeg" title="City Access">
 					</div>
 					<div class="wrap2">
 						<h4 class="post-title">Measuring urban proximity</h4>
 						<div class="post-authors">T Logan, T Williams, A Nisbet, et al. </div>
 						<div class="post-authors"><i>Environment and Planning B, 2017</i></div>
 						<p>Using open-source algorithms we analyse the distance of residents to their core urban services. We enhance existing approaches to improve the ease of identifying service-poor people.</p>
-						<a class="bigg-read-more" href="http://adaptingcities.org/city_access.html">More Info</a>
+						<a class="bigg-read-more" href="http://reckoningrisk.com/research/2017/urban-access/">More Info</a>
 					</div>
 				</div>
 				<!-- project -->
 				<div class="four columns post wrap">
 					<div class="wrap1">
-							<img class="post-thumbnail" src="img/urp_risk.jpg" title="Urban Heat Waves" />
+							<img class="post-thumbnail" src="/assets/img/urp_risk.jpg" title="Urban Heat Waves" />
 					</div>
 					<div class="wrap2">
 						<h4 class="post-title">Risk analysis in urban planning</h4>
@@ -152,6 +134,14 @@
 				</div>
 
 				<!-- end of projects -->
+			</section>
+
+				<!-- Footer -->
+
+				<section class="row">
+
+						<!-- <iframe align="right" height='160' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/7821806/activity-summary/d03ad14b3d9c3d07d38b40f015580db9383f8763'></iframe> -->
+
 
 			</section>
 		</div>
