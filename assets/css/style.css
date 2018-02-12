@@ -25,10 +25,6 @@
 	padding: 3em 0 5em;
 }
 
-.active a {
-	color: #AAA;
-}
-
 img {
 	max-width: 100%;
 }
@@ -166,6 +162,10 @@ a:hover {
 	text-decoration: none;
 	color: #009ede;
 
+}
+
+.active a {
+	color: #AAA;
 }
 
 .social-menu a{
