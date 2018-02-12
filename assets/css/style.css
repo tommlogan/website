@@ -25,7 +25,9 @@
 	padding: 3em 0 5em;
 }
 
-
+li active {
+	color: gray;
+}
 
 img {
 	max-width: 100%;
