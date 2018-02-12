@@ -25,12 +25,8 @@
 	padding: 3em 0 5em;
 }
 
-<<<<<<< HEAD
-active li {
-=======
-li active {
->>>>>>> affc3a064064ae0fd553c8b2522b3698cf34753a
-	color: gray;
+active a {
+	color: #AAA;
 }
 
 img {
