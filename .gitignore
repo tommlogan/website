@@ -8,3 +8,4 @@ my_blog
 _site\*
 _drafts
 old\*
+.DS_Store
