@@ -405,7 +405,7 @@ figure {
 
 #fh5co-footer {
   margin-top: 50px;
-  background: black;
+  /* background: black; */
   clear: both;
   color: rgba(255, 255, 255, 0.2);
   font-size: 14px;
