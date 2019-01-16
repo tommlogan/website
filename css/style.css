@@ -17,7 +17,7 @@ body {
   font-size: 20px;
   line-height: 1.5;
   color: #7f7f7f;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.8);
   background: #fff;
   height: 100%;
   position: relative;
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 600px;
   margin: 5em auto 5em auto;
   position: relative;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.6);
   overflow: hidden;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
